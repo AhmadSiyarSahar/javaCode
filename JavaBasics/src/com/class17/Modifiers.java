@@ -7,7 +7,7 @@ public class Modifiers {
 		// 1- Access Modifier : public, protected, default, private
 		// 2- non access modifiers: static, final, abstract 
 		
-		// public class: accessible to the enitire project. 
+		// public class: accessible to the entire project. 
 		// protected: accessible to all classes in the same package. 
 		// default :accessible to all classes in the same package. 
 		// private : accessible within the same class only. 

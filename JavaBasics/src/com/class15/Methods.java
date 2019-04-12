@@ -4,9 +4,9 @@ public class Methods {
 
 	public static void main(String[] args) {
 		
-//		/// a method cant be created inside another method. it should be out side the method but inside the class. 
+//		// a method cant be created inside another method. it should be out side the method but inside the class. 
 //		
-////		void hel () {
+////		void hel () { cant be created because a method is inside the method. 
 ////		}
 //		
 //		Methods obj=new Methods();
@@ -45,7 +45,7 @@ public class Methods {
 		obj.hello();
 		//how to find largest number
 		obj.findLargest(20, 10);//calling method FindLargest and passing values as 20&10
-		obj.findLargest(30, 31);//calling method FindLargest and passing values as 30&31
+		obj.findLargest(32, 31);//calling method FindLargest and passing values as 30&31
 		obj.findLargest(2000, 664674);
 		obj.helloToInstructor("Weqas");
 		obj.helloToInstructor("Arif");

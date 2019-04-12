@@ -9,6 +9,24 @@ public class Dog {
 	boolean tail; 
 	int age, legs, eyes; 
 	
+	
+	void run () {
+		System.out.println(breed+ " Dog can run fast.");
+	}
+	
+	void eat() {
+		System.out.println(breed+" Dog can eat meat.");
+	}
+	
+	void sleep() {
+		System.out.println(breed+" Dog can't sleep during the day.");
+	}
+	
+	void walk() {
+		System.out.println(breed+" can even walk.");
+	}
+	
+	
 	// 1 lets define its attributes
 	
 	public static void main(String[] args) {
@@ -29,7 +47,7 @@ public class Dog {
 	System.out.println(".............................Second obj/dog...........................");
 	
 	Dog dog2=new Dog();
-	dog2.breed="Bulldog";
+	dog2.breed="Bull dog";
 	dog2.color="Black";
 	dog2.tail=true; 
 	dog2.legs=4; 
@@ -54,21 +72,6 @@ public class Dog {
 	dog3.sleep();
 	
 }
-	void run () {
-		System.out.println(breed+ " Dog can run fast.");
-	}
-	
-	void eat() {
-		System.out.println(breed+" Dog can eat meat.");
-	}
-	
-	void sleep() {
-		System.out.println(breed+" Dog can't sleep during the day.");
-	}
-	
-	void walk() {
-		System.out.println(breed+" can even walk.");
-	}
 	
 	
 	}

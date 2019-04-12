@@ -17,7 +17,7 @@ public class NoMainMethod { // methods and variables are the members of our clas
 	 
 	 public static void main(String[] args) { // this is method signature any code inside the method is called method body. 
 		
-		 NoMainMethod obj=new NoMainMethod(); // Starting from new we create a new obj and we refrence it throught obj. 
+		 NoMainMethod obj=new NoMainMethod(); // Starting from new we create a new obj and we reference it thought obj. 
 		 obj.hello();// Through it we get access to our hello method code So, what ever code we have written in hello method, 
 		 				//will be executed. This is called calling a method. So, this will print out all those codes such as 
 		 				// hi, hi friends, hi my friend that we had written in our hello method. Then, it will 

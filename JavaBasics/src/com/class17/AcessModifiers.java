@@ -14,14 +14,7 @@ public class AcessModifiers {
 		 * available only within same class.
 		 */
 		
-		protected String reversedString (String str) {
-	
-		for (int i=str.length()-1; i>=0; i--) {
-			String reversed="";
-			reversed=reversed+str.charAt(i); 
-			
-		}
-		return reversed; 
+		
 	}
 
-}
+

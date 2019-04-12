@@ -14,11 +14,11 @@ public class Review {
 		
 	// we can have methods and variable in our class. at the end of methods we show ();
 	// TYPES OF MEHTOD
-		// / 1- Build in
-		// 2 user difiend is divided in two types. 
+		// / 1- Build in:
+		// 2 user difiend: it is divided in two types. 
 		
-		//a-  return value 
-		// b void : no value is returned. 
+		// a-  return value 
+		// b-  void : no value is returned. 
 		
 	// Methods 
 		// 1. with Parameters

@@ -2,15 +2,29 @@ package com.class14;
 
 public class Computer {
 
+	
 	String OS, brand="";
 	boolean mouse, keyboard;
 	int screen, ram;
+	
+	void watchMovie() {
+		System.out.println("We can watch movie " + brand);
+	}
 
+	void doJavaCoding() {
+		System.out.println("We can do coding " + brand);
+	}
+
+	void playMusic() {
+		System.out.println("We can paly music " + brand);
+	}
+	
 	public static void main(String[] args) {
 
 		// Create an obj for computer:
 
-		Computer comp1 = new Computer(); // we are creating obj and define its attributes this is the first step.
+		Computer comp1 = new Computer(); // we are creating obj and define its attributes this is the first step.\
+		
 		comp1.mouse = true;
 		comp1.keyboard = true;
 		comp1.OS = "Windows";
@@ -39,17 +53,8 @@ public class Computer {
 		comp2.watchMovie();
 		comp2.doJavaCoding();
 		comp2.playMusic();
+		
 	}
+	
 
-	void watchMovie() {
-		System.out.println("We can watch movie " + brand);
-	}
-
-	void doJavaCoding() {
-		System.out.println("We can do coding " + brand);
-	}
-
-	void playMusic() {
-		System.out.println("We can paly music " + brand);
-	}
 }

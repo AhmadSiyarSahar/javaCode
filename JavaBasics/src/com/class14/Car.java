@@ -2,8 +2,8 @@ package com.class14;
 
 public class Car {
 
-	String make, model, color; // we declare our object here. 
-	int door, wheels; 			// we specify its type whether it is String, int, boolean...
+	String make, model, color; // we declare the variables of the object here and we specify its type whether 
+	int door, wheels; 			// it is String, int, boolean...
 	
 	public static void main(String[] args) { // We define all our codes that are executable in main method. 
 		
@@ -61,7 +61,7 @@ public class Car {
 		
 	}
 	
-	// we can make a new method inside the same class but out side the main method. 
+	// we can make the new methods inside the same class but out side the main method. they can't be in same main method. 
 	
 	void drive() {
 		System.out.println("Car can drive");
