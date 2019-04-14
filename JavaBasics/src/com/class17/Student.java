@@ -14,7 +14,7 @@ public class Student {
 		 */
 		
 		Student ojb=new Student ();
-		char grade=ojb.getGrade(85);
+		char grade=ojb.getGrade(91);
 		System.out.println("My grade is "+grade);
 		
 }
