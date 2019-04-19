@@ -2,7 +2,7 @@ package com.class14;
 
 public class Notes {
 	
-// First step. We declare the object's attributes/features inside the class.or it is also called declaring variables
+// First step. We declare the object's attributes/features inside the class.or it is also called declaring variables/instanciating the class
 
 	public static void main(String[] args) {
 		//  Second step. we create the obj of the class and define the attributes/features and any other 
@@ -15,6 +15,8 @@ public class Notes {
 		dog1.age=5; 
 		dog1.legs=4; 
 		dog1.eyes=2;
+		
+	
 		
 		// Fourth step. we define the actions bellow each obj.  
 

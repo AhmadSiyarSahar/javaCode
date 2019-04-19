@@ -8,7 +8,7 @@ public class Car {
 	public static void main(String[] args) { // We define all our codes that are executable in main method. 
 		
 		
-		// specify className variableName=new ClasName(); =====>The formula:
+		// specify className variableName=new ClasName(); =====>The formula to create the obj:
 		
 		// First Obj
 		
@@ -61,7 +61,8 @@ public class Car {
 		
 	}
 	
-	// we can make the new methods inside the same class but out side the main method. they can't be in same main method. 
+	// we can make the new methods inside the same class but out side the main method. they can't be in 
+	// same main method. cause method can not be inside another method.  
 	
 	void drive() {
 		System.out.println("Car can drive");
